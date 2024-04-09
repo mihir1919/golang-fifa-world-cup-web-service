@@ -3,12 +3,13 @@ package handlers
 import (
 	"bytes"
 	"encoding/json"
-	"golang-fifa-world-cup-web-service/data"
 	"net/http"
 	"net/http/httptest"
 	"path"
 	"path/filepath"
 	"testing"
+
+	"../data"
 )
 
 // reloads JSON into memory to ensure

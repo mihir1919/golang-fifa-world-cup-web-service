@@ -1,8 +1,9 @@
 package main
 
 import (
-	"golang-fifa-world-cup-web-service/handlers"
 	"net/http"
+
+	"./handlers"
 )
 
 func main() {
